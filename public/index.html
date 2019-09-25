@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chat App</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-end bg-color-nav ">
+                <a class="navbar-brand" href="#">
+                        <img src="logo.jpg" width="80" height="80" class="d-inline-block align-top" alt="Chat Room">
+                        
+                      </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active">
+                      <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="/admin/rooms">Chat Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="/admin/users" aria-disabled="true">Users</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <div class="jumbotron bg-color-jumbo">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple Chat Application, Which we cab discuss create rooms and add users</p>
+                    <hr class="my-4">
+                    <p>This Chat Room uses the express and node with jade templating engine.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  </div>
 </body>
 </html>
